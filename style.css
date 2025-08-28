@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo{
+    background-image: url("amazom-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+/** Box 2 k ly **/
+.add-first{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.Search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    color: white;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(150, 150, 29);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i {
+    font-size: 35px;
+
+}
+.nav-cart{
+    font-size: 8.5rem;
+    font-size: 700;
+
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deal{
+    font-size: 0.9rem;
+}
+
+.hero-section{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+.hero-message a{
+    color: #007185;
+}
+.class-shop {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* allows wrapping if screen is small */
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 2px 0px 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 12px; /* 👈 rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth hover */
+}
+
+/* Hover effect */
+.box:hover {
+    transform: translateY(-8px) scale(1.03); /* lift & zoom */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* stronger shadow */
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.box-image {
+    flex: 1; /* fills remaining height */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* rounded image corners */
+
+    display: flex;
+    align-items: flex-end;   /* 👈 pushes "see more" to the bottom */
+    justify-content: center; /* center horizontally */
+    padding-bottom: 10px;    /* space from the bottom edge */
+}
+
+.box p {
+    color: #007185;
+    background: rgba(255, 255, 255, 0.7); /* optional */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0; /* remove default spacing */
+}
